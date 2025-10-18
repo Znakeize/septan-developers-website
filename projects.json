@@ -1,0 +1,19 @@
+{
+    "projects": [
+        {
+            "title": "Modern Residence",
+            "description": "A sleek home design blending minimalism and functionality.",
+            "image": "images/project1.jpg"
+        },
+        {
+            "title": "Office Interior",
+            "description": "Innovative workspace with ergonomic features.",
+            "image": "images/project2.jpg"
+        },
+        {
+            "title": "Luxury Villa",
+            "description": "Elegant villa with sustainable elements.",
+            "image": "images/project3.jpg"
+        }
+    ]
+}

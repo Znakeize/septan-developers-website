@@ -1,0 +1,22 @@
+body{margin:0;font-family:Poppins,Arial,sans-serif;transition:background .3s,color .3s;}
+.navbar{display:flex;justify-content:space-between;align-items:center;padding:1rem 2rem;background:rgba(255,255,255,0.8);backdrop-filter:blur(8px);position:sticky;top:0;}
+.navbar a{margin:0 0.5rem;text-decoration:none;color:#333;transition:color .3s;}
+.navbar a:hover{color:#c9a646;}
+.hero{height:70vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;background:#f7f7f7;}
+.hero h1{font-size:2.5rem;margin-bottom:0.5rem;}
+.services{padding:2rem;text-align:center;}
+.service-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin-top:1rem;}
+.card{background:#fff;border-radius:10px;padding:1rem;box-shadow:0 2px 6px rgba(0,0,0,0.1);transition:transform .3s,box-shadow .3s;}
+.card:hover{transform:translateY(-5px);box-shadow:0 4px 12px rgba(0,0,0,0.2);}
+.footer{padding:2rem;background:#222;color:#eee;text-align:center;}
+.footer a{color:#c9a646;margin:0 0.5rem;text-decoration:none;transition:opacity .3s;}
+.footer a:hover{opacity:0.7;}
+.fade-in{opacity:0;transform:translateY(20px);animation:fadeInUp 1s forwards;}
+@keyframes fadeInUp{to{opacity:1;transform:translateY(0);}}
+@media (prefers-color-scheme: dark){
+body{background:#111;color:#ddd;}
+.navbar{background:rgba(20,20,20,0.8);}
+.hero{background:#1a1a1a;}
+.card{background:#222;color:#fff;}
+.footer{background:#000;}
+}
